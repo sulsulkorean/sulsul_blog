@@ -40,12 +40,18 @@ sulsul-blog 이어서 진행. HANDOFF.md의 §5 남은 일부터.
 
 ### 발행 모드 (2026-08-05 현재)
 
-**하루 4편 자동 발행 ON** (대표님 승인 2026-08-05).
+**하루 4편 자동 발행 ON.** 단, **도는 곳이 GitHub이 아니라 대표님 맥**입니다 (2026-08-07 변경 · 2026-08-23 유지 확정).
 
 | 스케줄 (KST) | 무엇 | 몇 개 | 발행 |
 |---|---|---|---|
-| 매일 오전 9시 | K-컬처 / 트렌드 (k-pop·k-drama·idol·music·food) | 2 | 게이트 통과 → **main 직푸시** → Vercel |
-| 매일 오후 9시 | 교재 기반 생존 한국어 | 2 | 동일 |
+| 매일 **자정 00:00** | 교재 기반 생존 한국어 | 2 | 게이트 통과 → **main 직푸시** → Vercel |
+| 매일 **정오 12:00** | K-컬처 / 트렌드 (k-pop·k-drama·idol·music·food) | 2 | 동일 |
+
+- 실행 주체: 맥 launchd → `scripts/blog_publish_cursor.py` (Cursor SDK). **OpenAI API 안 씀.**
+- GitHub Actions의 `schedule`은 **꺼져 있습니다**(2026-08-07, OpenAI 결제 중단). 수동 Run workflow만 가능.
+- ⚠️ **맥이 꺼져 있으면 그날 블로그는 안 나갑니다.** 잠자기였다면 깨어난 뒤 한 번 따라 돕니다.
+- launchd 이름의 `9am`/`9pm`은 옛 이름 — 실제 시각은 위 표(자정·정오)가 맞습니다. 돌아가는 자동화를 건드리지 않으려고 이름은 그대로 뒀습니다.
+- 근거: `../../docs/decisions/20260823-blog-publish-on-mac.md`
 
 **표지 이미지:** `_posts`에 이미 쓰인 커버를 피해서 `public/assets/blog/scenes/` 미사용 파일을 먼저 씀. 남는 장면이 없을 때만 OpenAI DALL·E로 1장 생성해 같은 폴더에 저장. 뉴스·아이돌·드라마 스틸은 쓰지 않음.
 
@@ -83,8 +89,9 @@ sulsul-blog 이어서 진행. HANDOFF.md의 §5 남은 일부터.
 | `generate_seo_posts.py` | 글 생성기. 프롬프트, 품질 게이트, 자동 수정 루프 |
 | `tools/check_public_copy.py` | 공개 문구 검사기. 발행 차단 장치 |
 | `tools/romanize.py` | 한글 → 로마자 정확 변환 |
-| `.github/workflows/trend_9am.yml` | 매일 09:00 KST — K-컬처 2편 → main 직배포 |
-| `.github/workflows/textbook_9pm.yml` | 매일 21:00 KST — 교재 2편 → main 직배포 |
+| `.github/workflows/trend_9am.yml` | K-컬처 2편 → main 직배포. **스케줄 OFF**(수동 실행용으로만 남김) |
+| `.github/workflows/textbook_9pm.yml` | 교재 2편 → main 직배포. **스케줄 OFF**(수동 실행용으로만 남김) |
+| HQ `scripts/blog_publish_cursor.py` | **지금 실제로 매일 도는 발행기** (맥 launchd, 자정 교재 2 · 정오 K-컬처 2) |
 | `src/app/what-is-sulsul/page.tsx` | 브랜드 정의 페이지 |
 | `public/llms.txt`, `llms-full.txt` | AI 검색엔진용 브리핑 |
 | `_posts/` | 공개된 글 |
@@ -197,23 +204,22 @@ python3 tools/check_public_copy.py
 
 ### 지금 상태
 
-- 자동발행: **ON** — 매일 교재 2 + K-컬처 2, main 직배포
+- 자동발행: **ON** — 매일 교재 2(자정) + K-컬처 2(정오), main 직배포. **맥 launchd에서 실행**
 - 표지: 장면 풀 우선, 부족 시 DALL·E 생성
 - 공개 글: 런칭·검수 글 + 이후 자동/수동 발행분 (홈에서 확인)
 
 ### 우선순위 높음
 
-1. **자동 스케줄 첫 실행 확인**
-   - [Trend K-Culture](https://github.com/sulsulkorean/sulsul_blog/actions/workflows/trend_9am.yml) / [Textbook](https://github.com/sulsulkorean/sulsul_blog/actions/workflows/textbook_9pm.yml)
-   - 원하면 **Run workflow**로 수동 1회 스모크 테스트
-   - 통과 0편(검색 실패·게이트)도 정상일 수 있음 — Summary 확인
-   - push 후 [blog.sulsul.app](https://blog.sulsul.app)에서 새 글·표지 확인 (§4 사고 4)
+1. **매일 발행이 실제로 돌았는지 확인** (맥에서 도는 것이라 확인 위치가 바뀜)
+   - 실행 기록: `/tmp/antigraviti_blog_textbook_9pm.log` · `/tmp/antigraviti_blog_trend_9am.log`
+   - 커밋이 올라갔는지: `git log --oneline -5` 와 `git status -sb`
+   - [blog.sulsul.app](https://blog.sulsul.app)에서 오늘 날짜 글이 보이는지 (§4 사고 4)
+   - 빠진 날이 있으면 대개 **그 시각에 맥이 꺼져 있던 것**
 
 2. **게이트 통과율 보고 기준 조정** (데이터 본 뒤, 한 번에 하나씩)
 
-3. **Actions → main write 권한**  
-   Settings → Actions → General → Workflow permissions → **Read and write**  
-   (직배포에 필요. PR 생성 허용은 더 이상 필수는 아님)
+3. ~~Actions → main write 권한~~ — Actions 스케줄이 꺼져 있어 지금은 불필요.
+   GitHub에서 다시 돌리기로 결정하면(= OpenAI 결제 재개) 그때 설정한다.
 
 ### 우선순위 낮음
 
