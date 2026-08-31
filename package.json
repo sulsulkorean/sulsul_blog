@@ -8,6 +8,7 @@
     "prebuild": "npm run check:copy"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
     "gray-matter": "^4.0.3",
