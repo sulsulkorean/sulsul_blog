@@ -54,3 +54,7 @@ BLOG_SEO_GEO_ENGINE_V2.md
 CEO_ACTION_CHECKLIST.md
 BLOG_IMAGE_SYSTEM.md
 PREVIEW_REVIEW.md
+
+# 파이썬 캐시
+__pycache__/
+*.pyc

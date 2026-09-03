@@ -50,6 +50,16 @@ python3 render_carousel_images.py --all
 
 PNGs land next to the draft, e.g. `obsidian_data/4.Repurposed/ig-airport-check-in-korean/01.png` … `06.png`.
 
+Publish **one** carousel via Buffer (default dry-run; needs `BUFFER_API_TOKEN` — see `INSTAGRAM_BUFFER_SETUP.md`):
+
+```bash
+python3 publish_buffer_carousel.py
+python3 publish_buffer_carousel.py --list-channels
+python3 publish_buffer_carousel.py obsidian_data/4.Repurposed/ig-airport-check-in-korean --publish
+```
+
+Legacy Meta Graph publisher (blocked until developer registration works): `publish_instagram_carousel.py` + `INSTAGRAM_PUBLISH_SETUP.md`.
+
 ## Env
 
 | Variable | Where | Purpose |
@@ -57,6 +67,8 @@ PNGs land next to the draft, e.g. `obsidian_data/4.Repurposed/ig-airport-check-i
 | `OPENAI_API_KEY` | local `.env.local` (once) / GitHub `OPENAI` secret | Generation |
 | `SULSUL_BLOG_MODEL` | optional | Default `gpt-4o` |
 | `NEXT_PUBLIC_SITE_URL` | Vercel | Canonical domain (default `https://blog.sulsul.app`) |
+| `IG_USER_ID` | local `.env.local` | Instagram professional account id (publish) |
+| `IG_ACCESS_TOKEN` | local `.env.local` | Meta token with content_publish (publish) |
 
 ## Key routes
 
