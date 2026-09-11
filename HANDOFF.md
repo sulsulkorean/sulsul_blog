@@ -95,6 +95,8 @@ sulsul-blog 이어서 진행. HANDOFF.md의 §5 남은 일부터.
 | HQ `scripts/blog_publish_claude.sh` | **지금 실제로 매일 도는 발행기** (맥 launchd, 자정 교재 2 · 정오 K-컬처 2) |
 | HQ `scripts/blog_watchdog.sh` | 매일 13:00 — 24시간 무발행이면 텔레그램 (「아예 안 돈 날」 잡기) |
 | HQ `logs/blog/` | 실행 기록. `ledger.tsv` = 날짜별 한 줄 요약(영구), `*.log` = 원문(60일) |
+| HQ `scripts/blog_analytics.py` | 서치콘솔 28일 노출·클릭·상위 글·검색어 → `reports/blog/` + 매주 월 09:30 텔레그램 (launchd `blog_analytics`). 403이면 스크립트가 필요한 클릭 2개를 알려준다 |
+| `src/lib/api.ts` `getRelatedPosts` | 글마다 관련 글 3편 자동 링크 (2026-09-11 — 내부 링크 0개라 색인 85편 누락 대응) |
 | `src/app/what-is-sulsul/page.tsx` | 브랜드 정의 페이지 |
 | `public/llms.txt`, `llms-full.txt` | AI 검색엔진용 브리핑 |
 | `_posts/` | 공개된 글 |
