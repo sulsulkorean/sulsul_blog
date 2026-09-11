@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/api";
+import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/api";
 import {
   DEFAULT_COVER_IMAGE,
   SITE_NAME,
@@ -17,6 +17,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import { RelatedPosts } from "@/app/_components/related-posts";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -27,6 +28,7 @@ export default async function Post(props: Params) {
   }
 
   const content = await markdownToHtml(post.content || "");
+  const related = getRelatedPosts(post, getAllPosts());
   const schemas = [
     blogPostingJsonLd(post),
     breadcrumbJsonLd(post),
@@ -62,6 +64,7 @@ export default async function Post(props: Params) {
             </div>
           )}
           <PostBody content={content} />
+          <RelatedPosts posts={related} />
         </article>
       </Container>
     </main>

@@ -39,6 +39,33 @@ export function getAllPosts(): Post[] {
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
 }
 
+const STOP = new Set(["korean", "phrases", "phrase", "korea", "in", "at", "the", "a", "for", "of", "to", "and", "when", "with", "on", "your", "you"]);
+
+function topicWords(post: Post): Set<string> {
+  const text = [post.title, post.primaryKeyword, ...(post.keywords || [])].join(" ");
+  return new Set(text.toLowerCase().match(/[a-z가-힣]{3,}/g)?.filter((w) => !STOP.has(w)));
+}
+
+/**
+ * Posts worth linking from `post`. Every post used to stand alone — no post linked
+ * to any other — so Google had no path to discover or rank the newer ones (Sept 2026:
+ * 85 of 140 unindexed). Same category counts most; shared topic words break ties;
+ * newest wins among equals so fresh posts get inbound links quickly.
+ */
+export function getRelatedPosts(post: Post, all: Post[], limit = 3): Post[] {
+  const mine = topicWords(post);
+  return all
+    .filter((p) => p.slug !== post.slug)
+    .map((p) => {
+      let score = p.category === post.category ? 2 : 0;
+      topicWords(p).forEach((w) => mine.has(w) && score++);
+      return { p, score };
+    })
+    .sort((a, b) => b.score - a.score || (a.p.date > b.p.date ? -1 : 1))
+    .slice(0, limit)
+    .map(({ p }) => p);
+}
+
 export function wordCount(content: string) {
   return content.trim().split(/\s+/).filter(Boolean).length;
 }
