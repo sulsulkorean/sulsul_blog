@@ -47,7 +47,8 @@ sulsul-blog 이어서 진행. HANDOFF.md의 §5 남은 일부터.
 | 매일 **자정 00:00** | 교재 기반 생존 한국어 | 2 | 게이트 통과 → **main 직푸시** → Vercel |
 | 매일 **정오 12:00** | K-컬처 / 트렌드 (k-pop·k-drama·idol·music·food) | 2 | 동일 |
 
-- 실행 주체: 맥 launchd → `scripts/blog_publish_cursor.py` (Cursor SDK). **OpenAI API 안 씀.**
+- 실행 주체: 맥 launchd → HQ `scripts/blog_publish_claude.sh` (**Claude Code 무인 실행**, 2026-09-03 Cursor에서 이전). **OpenAI API 안 씀.**
+- 푸시는 «스크립트»가 한다. 에이전트는 커밋까지만 — 무인 실행에서 push 승인을 물으면 멈춘다(2026-09-06 사고).
 - GitHub Actions의 `schedule`은 **꺼져 있습니다**(2026-08-07, OpenAI 결제 중단). 수동 Run workflow만 가능.
 - ⚠️ **맥이 꺼져 있으면 그날 블로그는 안 나갑니다.** 잠자기였다면 깨어난 뒤 한 번 따라 돕니다.
 - launchd 이름의 `9am`/`9pm`은 옛 이름 — 실제 시각은 위 표(자정·정오)가 맞습니다. 돌아가는 자동화를 건드리지 않으려고 이름은 그대로 뒀습니다.
@@ -91,7 +92,9 @@ sulsul-blog 이어서 진행. HANDOFF.md의 §5 남은 일부터.
 | `tools/romanize.py` | 한글 → 로마자 정확 변환 |
 | `.github/workflows/trend_9am.yml` | K-컬처 2편 → main 직배포. **스케줄 OFF**(수동 실행용으로만 남김) |
 | `.github/workflows/textbook_9pm.yml` | 교재 2편 → main 직배포. **스케줄 OFF**(수동 실행용으로만 남김) |
-| HQ `scripts/blog_publish_cursor.py` | **지금 실제로 매일 도는 발행기** (맥 launchd, 자정 교재 2 · 정오 K-컬처 2) |
+| HQ `scripts/blog_publish_claude.sh` | **지금 실제로 매일 도는 발행기** (맥 launchd, 자정 교재 2 · 정오 K-컬처 2) |
+| HQ `scripts/blog_watchdog.sh` | 매일 13:00 — 24시간 무발행이면 텔레그램 (「아예 안 돈 날」 잡기) |
+| HQ `logs/blog/` | 실행 기록. `ledger.tsv` = 날짜별 한 줄 요약(영구), `*.log` = 원문(60일) |
 | `src/app/what-is-sulsul/page.tsx` | 브랜드 정의 페이지 |
 | `public/llms.txt`, `llms-full.txt` | AI 검색엔진용 브리핑 |
 | `_posts/` | 공개된 글 |
@@ -211,7 +214,8 @@ python3 tools/check_public_copy.py
 ### 우선순위 높음
 
 1. **매일 발행이 실제로 돌았는지 확인** (맥에서 도는 것이라 확인 위치가 바뀜)
-   - 실행 기록: `/tmp/antigraviti_blog_textbook_9pm.log` · `/tmp/antigraviti_blog_trend_9am.log`
+   - 실행 기록: HQ `logs/blog/ledger.tsv` (한 줄 요약) · 같은 폴더의 날짜별 `.log` (원문)
+     ⚠️ `/tmp` 로그는 재부팅 때 사라진다 — 원인 조사는 위 `logs/blog/` 를 볼 것
    - 커밋이 올라갔는지: `git log --oneline -5` 와 `git status -sb`
    - [blog.sulsul.app](https://blog.sulsul.app)에서 오늘 날짜 글이 보이는지 (§4 사고 4)
    - 빠진 날이 있으면 대개 **그 시각에 맥이 꺼져 있던 것**
