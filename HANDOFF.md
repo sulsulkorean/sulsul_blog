@@ -44,8 +44,12 @@ sulsul-blog 이어서 진행. HANDOFF.md의 §5 남은 일부터.
 
 | 스케줄 (KST) | 무엇 | 몇 개 | 발행 |
 |---|---|---|---|
-| 매일 **자정 00:00** | 교재 기반 생존 한국어 | 2 | 게이트 통과 → **main 직푸시** → Vercel |
-| 매일 **정오 12:00** | K-컬처 / 트렌드 (k-pop·k-drama·idol·music·food) | 2 | 동일 |
+| 매일 **자정 00:00** | 생존·여행 한국어 (검색 수요형) | **1** | 게이트 통과 → **main 직푸시** → Vercel |
+| 매일 **정오 12:00** | K-컬처 한국어 (검색 수요형 — 뉴스·이벤트 소재 금지) | **1** | 동일 |
+
+> **2026-09-16 변경 (대표님 승인):** 하루 4편 → 2편. 글감은 `scripts/blog_topic_seeds.py`(구글 자동완성 + 서치콘솔 검색어)에서만.
+> 제목 "Korean Phrases…" 금지. 본문 첫 섹션 뒤 앱 링크 자동 삽입(`src/lib/midCta.ts`).
+> 근거·목표 수치: `../../docs/decisions/20260916-blog-2-per-day-search-demand.md`
 
 - 실행 주체: 맥 launchd → HQ `scripts/blog_publish_claude.sh` (**Claude Code 무인 실행**, 2026-09-03 Cursor에서 이전). **OpenAI API 안 씀.**
 - 푸시는 «스크립트»가 한다. 에이전트는 커밋까지만 — 무인 실행에서 push 승인을 물으면 멈춘다(2026-09-06 사고).
