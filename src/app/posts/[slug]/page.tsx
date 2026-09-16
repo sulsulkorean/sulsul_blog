@@ -12,6 +12,7 @@ import {
   faqPageJsonLd,
 } from "@/lib/jsonLd";
 import markdownToHtml from "@/lib/markdownToHtml";
+import { insertMidCta } from "@/lib/midCta";
 import Alert from "@/app/_components/alert";
 import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
@@ -27,7 +28,7 @@ export default async function Post(props: Params) {
     return notFound();
   }
 
-  const content = await markdownToHtml(post.content || "");
+  const content = insertMidCta(await markdownToHtml(post.content || ""), post.slug);
   const related = getRelatedPosts(post, getAllPosts());
   const schemas = [
     blogPostingJsonLd(post),

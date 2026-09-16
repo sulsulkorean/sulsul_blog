@@ -120,3 +120,15 @@
     font-size: 1.35rem;
   }
 }
+
+/* Mid-post app link (inserted by insertMidCta) — same pink, one notch quieter than the final CTA. */
+.markdown :global(.mid-cta) {
+  margin: 1.5rem 0 2rem;
+  padding: 0.9rem 1.1rem;
+  border-left: 4px solid #FE64AB;
+  background: rgba(254, 100, 171, 0.06);
+}
+.markdown :global(.mid-cta) a[href*="sulsul.app"] {
+  font-size: 1.15rem;
+  margin-top: 0;
+}
