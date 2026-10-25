@@ -7,7 +7,7 @@
 - **✅ 검색 수요형 전환 성공 판정 (10/23 측정).** 9/16 이후 새 규칙 글 55편 중 **29편 색인(53%)** — 9/21 0/9, 10/8 0/28에서 처음 붙기 시작.
 - 서치콘솔 28일(10/23): **노출 2,740회 · 클릭 13 · 평균 9.3위.** 10/18(1,831·8) 대비 노출 1.5배, 클릭도 8→13으로 처음 움직였다.
 - **블로그 → 앱: 방문 1회 · 가입 0 · 결제 0.** 클릭이 늘기 시작했으니 이 칸이 따라오는지가 관찰 지점. 2주 더 보고 제목·설명 개선을 원인 측정부터 착수.
-- 블로그 방문수(Vercel Web Analytics): **코드는 이미 들어가 있다**(`@vercel/analytics` + layout의 `<Analytics />`). 남은 건 Vercel 대시보드 토글 1클릭 — 로그인이 필요해 AI가 못 누른다.
+- **[x] 블로그 방문수(Vercel) — 이미 켜져 있었다 (10/26 확인).** 라이브에서 `/_vercel/insights/script.js` 200 응답 · 코드도 `@vercel/analytics` + layout `<Analytics />`로 배포됨. 아침 보고가 두 달간 「켜기」를 할 일로 올린 것은 `scripts/report_config.json`의 9/1 문구가 안 고쳐진 탓 — 오늘 고쳤다. 숫자는 [Vercel Analytics](https://vercel.com/dashboard)에서 바로 볼 수 있다.
 
 ## Next (대표님)
-- [ ] [Vercel 대시보드](https://vercel.com/dashboard) → sulsul-blog 프로젝트 → **Analytics 탭 → Enable** 1클릭 (무료 Hobby 플랜 포함). 코드는 이미 배포돼 있어 켜는 즉시 방문수가 쌓인다.
+- [ ] 없음
