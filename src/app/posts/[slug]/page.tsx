@@ -28,7 +28,11 @@ export default async function Post(props: Params) {
     return notFound();
   }
 
-  const content = insertMidCta(await markdownToHtml(post.content || ""), post.slug);
+  // Every post's closing link says utm_campaign=seo; tag it with the slug so GA4 can tell posts apart.
+  const content = insertMidCta(
+    (await markdownToHtml(post.content || "")).replace(/utm_campaign=seo\b/g, `utm_campaign=${post.slug}`),
+    post.slug,
+  );
   const related = getRelatedPosts(post, getAllPosts());
   const schemas = [
     blogPostingJsonLd(post),
