@@ -1,5 +1,5 @@
 import Container from "@/app/_components/container";
-import { APP_URL, SITE_NAME, SITE_TAGLINE, appLink } from "@/lib/constants";
+import { SITE_NAME, SITE_TAGLINE, appLink } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -32,7 +32,7 @@ export function Footer() {
               What is SULSUL?
             </a>
             <a
-              href={`${APP_URL}/`}
+              href={appLink("footer_text")}
               className="mx-3 font-bold hover:underline text-slate-500"
             >
               sulsul.app
