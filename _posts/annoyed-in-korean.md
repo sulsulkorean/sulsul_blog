@@ -35,7 +35,7 @@ The everyday way to say "I'm annoyed" in Korean is **짜증 나** (*jja-jeung na
 
 That middle one matters more than learners expect. In a drama, when one sibling barks at another, the reply is almost always **왜 나한테 짜증이야?** ("Why are you snapping at *me*?"). The fight is no longer about the original problem. It's about where the irritation landed.
 
-For emphasis, Koreans stack words in front: **진짜 짜증 나**, **완전 짜증 나**, or the slangy **개짜증** (*gae-jja-jeung*), where 개 is an intensifier you should only use with close friends. Our post on [Korean slang words](/korean-slang-words) explains why that little 개 has nothing to do with dogs.
+For emphasis, Koreans stack words in front: **진짜 짜증 나**, **완전 짜증 나**, or the slangy **개짜증** (*gae-jja-jeung*), where 개 is an intensifier you should only use with close friends. Our post on [Korean slang words](/korean-slang-words-what-they-mean) explains why that little 개 has nothing to do with dogs.
 
 One more spelling note: you'll see both **짜증 나** and **짜증나** online. The spaced version is the standard spelling, but texting drops the space all the time, so read them as the same word.
 
@@ -133,7 +133,7 @@ English uses "annoying" as an adjective: an annoying song, an annoying person. K
 
 That -는 and -은 ending turns any of them into a describing word, so you can now label almost anything in your day.
 
-![SULSUL web app screen showing a Korean phrase card with a microphone icon for voice practice](/assets/blog/covers/app-screen-2.png)
+![SULSUL mascot Sulsuli encouraging a learner to say the phrase out loud](/assets/blog/covers/app-screen-2.png)
 
 ## Say them out loud, with the right sigh
 
