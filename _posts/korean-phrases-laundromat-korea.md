@@ -57,7 +57,7 @@ Them: **삼십 분이에요.** — *samsip bunieyo.* — "Thirty minutes."
 
 It happens. Come back and ask **제 옷 여기 있어요?** (*je ot yeogi isseoyo?*), "Are my clothes here?" Staff or other customers often move finished laundry to a folding table. If a sock is missing, **하나 없어졌어요** (*hana eopseojyeosseoyo*), "One is missing," is clearer than a long story.
 
-Self-service laundry is cheaper than hotel dry cleaning and faster than waiting three days. The phrases are short because the situation is simple — find the shop, run the machine, collect your clothes.
+Self-service laundry is cheaper than hotel dry cleaning and faster than waiting three days. For a suit or coat that should not go in a washer, [drop it off at a dry cleaner](/korean-phrases-dry-cleaner-korea) instead. The phrases are short because the situation is simple — find the shop, run the machine, collect your clothes.
 
 ![SULSUL mascot Sulsuli next to a breakdown of the app's 100 patterns and practice features](/assets/blog/covers/app-screen-4.png)
 

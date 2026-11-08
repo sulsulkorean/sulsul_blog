@@ -57,7 +57,7 @@ If they ask **매운 거 괜찮으세요?** (*maeun geo gwaenchanseuseyo?*), "Is
 
 ## What usually goes wrong at the table?
 
-Learners often wait silently for someone to take an order when the staff expects you to call **여기요** (*yeogiyo*), a polite "excuse me" that gets attention without shouting. Practice it once before you need it.
+Learners often wait silently for someone to take an order when the staff expects you to call **여기요** (*yeogiyo*), a polite "excuse me" that gets attention without shouting. When to use it instead of 저기요, and how the table bell works, is covered in [how to call a waiter in Korean](/how-to-call-a-waiter-in-korean). Practice it once before you need it.
 
 A second mistake is mixing up **주세요** (*juseyo*), "please give me," with **할게요** (*halgeyo*), "I will do it" — **계산할게요** (*gyesanhalgeyo*) means "I will pay," while **계산서 주세요** asks for the bill. If you already ordered Korean BBQ elsewhere, the post on [Korean phrases for Korean BBQ](/korean-phrases-korean-bbq-restaurant) covers grill-specific lines like scissors and refills.
 

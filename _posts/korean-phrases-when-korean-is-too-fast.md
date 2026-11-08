@@ -1,6 +1,6 @@
 ---
 title: "Korean Phrases When Someone Speaks Too Fast"
-excerpt: "When Korean is too fast to follow, say 천천히 말해 주세요 (cheoncheonhi malhae juseyo), 'Please speak slowly,' or 다시 말해 주세요 (dasi malhae juseyo), 'Please say it again.'"
+excerpt: "Too fast in Korean is 너무 빨라요 (neomu ppallayo). To slow someone down, say 천천히 말해 주세요 (cheoncheonhi malhae juseyo), \"Please speak slowly.\""
 slug: "korean-phrases-when-korean-is-too-fast"
 date: "2026-08-12T12:05:00.000Z"
 updated: "2026-08-12T12:05:00.000Z"
@@ -42,6 +42,10 @@ You: **네, 지금 좋아요.** — *ne, jigeum joayo.* — "Yes, this is good n
 | One more time | 한 번 더 말해 주세요 (*han beon deo malhae juseyo*) |
 
 ![SULSUL mascot Sulsuli next to a breakdown of the app's 100 patterns and practice features](/assets/blog/covers/app-screen-4.png)
+
+## How do you say "too fast" in Korean?
+
+"Too fast" is **너무 빨라요** (*neomu ppallayo*), "It is too fast." To point at the speaker, say **말이 너무 빨라요** (*mari neomu ppallayo*), "You speak too fast." On its own it is a statement, so follow it with **천천히 말해 주세요** (*cheoncheonhi malhae juseyo*) to make it a polite request.
 
 ## What do Koreans say when they repeat for you?
 

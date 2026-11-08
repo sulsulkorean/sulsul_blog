@@ -1,6 +1,6 @@
 ---
 title: "What Does Jagiya Mean in Korean?"
-excerpt: "자기야 (jagiya) is what couples call each other instead of a name — closest to \"babe\" or \"honey\". It is gender-neutral, it is casual speech, and the word underneath it literally means \"oneself\"."
+excerpt: "Jagiya (자기야) means \"babe\" or \"honey\", a gender-neutral casual pet name for couples. It is not jogiya, which people mean as 저기요 (jeogiyo), \"excuse me.\""
 slug: "what-does-jagiya-mean-in-korean"
 date: "2026-09-18T03:05:00.000Z"
 updated: "2026-09-18T03:05:00.000Z"
@@ -23,6 +23,10 @@ sources: []
 > - The married-couple version: **여보** (*yeobo*) — "dear."
 > - A normal sentence with it: **자기야, 어디야?** (*jagiya, eodiya?*) — "Babe, where are you?"
 > - Who says it: both partners, either gender, once the relationship is real.
+
+## What does jagiya mean, and is it the same as jogiya?
+
+**자기야** (*jagiya*) means "babe" or "honey," and only a partner says it. People searching "jogiya" usually mean a different word: **저기요** (*jeogiyo*), "excuse me," which you say to a stranger or a waiter to get their attention. They sound close, but **저기요** is polite and impersonal, while **자기야** is private and affectionate. In a goodnight text, **잘 자, 자기야** (*jal ja, jagiya*) means "Sleep well, babe" — **잘 자** (*jal ja*) is the casual "good night."
 
 ## Why there is a 야 on the end
 

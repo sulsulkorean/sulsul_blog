@@ -1,6 +1,6 @@
 ---
-title: "How to Call a Waiter in Korean: 저기요, 여기요, and the Table Bell"
-excerpt: "To call a waiter in Korean, say 저기요 (jeo-gi-yo) or 여기요 (yeo-gi-yo) clearly across the room. Here is when each one fits, what to say right after, the call bell on the table, and the words regulars use, like 사장님 and 이모."
+title: "How to Call a Waiter in Korean: 저기요, 여기요, Table Bell"
+excerpt: "To call a waiter in Korean, say 저기요 (jeogiyo) or 여기요 (yeogiyo). Here is when each fits, what to say next, the table bell, and 사장님."
 slug: "how-to-call-a-waiter-in-korean"
 date: "2026-10-11T03:05:00.000Z"
 updated: "2026-10-11T03:05:00.000Z"
@@ -25,6 +25,10 @@ To call a waiter in Korea, you say **저기요** (*jeo-gi-yo*) or **여기요** 
 > - Check, please: **계산해 주세요** — *gye-san-hae ju-se-yo*
 > - Owner / boss (warm and polite): **사장님** — *sa-jang-nim*
 
+## How to call a waiter in Korean
+
+The waiter in Korean is **웨이터** (*wei-teo*) or **종업원** (*jong-eop-won*, "staff member"), but you almost never use either to get someone's attention. To call a waiter, say **저기요!** (*jeo-gi-yo*) or **여기요!** (*yeo-gi-yo*) while looking toward them, and raise a hand slightly if the room is loud. When you talk *about* the staff, 종업원 is the neutral word. When you talk *to* them, use 저기요.
+
 ## Why calling out is normal in a Korean restaurant
 
 Many visitors hesitate here. Where they come from, a waiter checks on the table and raising your voice would feel pushy. Korean restaurants work the other way. Staff are busy carrying trays, grilling meat, and refilling side dishes for a full room, and they expect you to tell them when you need something. A clear 저기요 helps them. A guest who sits silently waving a hand often waits a long time.
@@ -43,7 +47,7 @@ If you're unsure, say 저기요. You can also chain them: **저기요, 여기요
 
 ## What to say once they come over
 
-Calling is only half the job. The next sentence tells them why you called, and almost all of these use one pattern from basic Korean: **[noun] 주세요**, "please give me."
+Calling is only half the job. The next sentence tells them why you called, and almost all of these use one pattern from basic Korean: **[noun] 주세요**, "please give me" (the full pattern is in [how to say please give me in Korean](/how-to-say-please-give-me-in-korean)).
 
 - **주문할게요.** (*ju-mun-hal-ge-yo*) — "We'll order now." Use it the moment they arrive with a notepad.
 - **이거 하나 주세요.** (*i-geo ha-na ju-se-yo*) — "One of this, please," while pointing at the menu.

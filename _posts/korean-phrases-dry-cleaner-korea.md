@@ -1,6 +1,6 @@
 ---
 title: "Korean Phrases at a Dry Cleaner in Korea"
-excerpt: "Korean phrases at a dry cleaner in Korea start with 세탁하고 싶어요 (setakhago sipeoyo), 'I'd like to dry-clean this,' then ask 언제 되나요? (eonje doenayo?) for the pickup time."
+excerpt: "Dry cleaning in Korean is 드라이클리닝 (deuraikeullining), but at the counter say 세탁하고 싶어요 (setakhago sipeoyo) and ask 언제 되나요? for pickup."
 slug: "korean-phrases-dry-cleaner-korea"
 date: "2026-08-22T12:05:00.000Z"
 updated: "2026-08-22T12:05:00.000Z"
@@ -25,6 +25,10 @@ Korean phrases at a dry cleaner come down to Pattern 03 from the SULSUL workbook
 > - Get a receipt: **영수증 주세요** (*yeongsujeung juseyo*), "Receipt, please."
 
 ![Interior of a bright clothing boutique in Seoul](/assets/blog/scenes/boutique.jpg)
+
+## How do you say dry cleaning in Korean?
+
+Dry cleaning in Korean is **드라이클리닝** (*deuraikeullining*), often shortened to **드라이** (*deurai*), and the shop is a **세탁소** (*setakso*). At the counter, though, staff understand **세탁하고 싶어요** (*setakhago sipeoyo*) just as well, because **세탁** (*setak*) covers cleaning clothes in general. Say **드라이 해 주세요** (*deurai hae juseyo*), "Please dry-clean this," when you want to be sure it is not machine-washed.
 
 ## How do you hand over clothes at the counter?
 
@@ -52,7 +56,7 @@ You: **얼마예요?** — *eolmayeyo?* — "How much is it?"
 Them: **12,000원이에요.** — *man icheon won-ieyo.* — "It is 12,000 won."  
 You: **영수증 주세요.** — *yeongsujeung juseyo.* — "Receipt, please."
 
-For self-service washing machines on a longer stay, [Korean phrases for a laundromat in Korea](/korean-phrases-laundromat-korea) covers the coin-machine version — **세탁소** (*setakso*) is for professional dry cleaning when you need a suit or coat pressed fast.
+For self-service washing machines on a longer stay, [Korean phrases for a laundromat in Korea](/korean-phrases-laundromat-korea) covers the coin-machine version — **세탁소** (*setakso*) is for professional dry cleaning when you need a suit or coat pressed fast. If a hem or a button needs fixing instead, [Korean phrases at a tailor in Korea](/korean-phrases-tailor-korea) covers the repair counter.
 
 ## What usually goes wrong at a dry cleaner?
 

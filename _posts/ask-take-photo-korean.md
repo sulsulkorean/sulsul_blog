@@ -1,6 +1,6 @@
 ---
 title: "How to Ask Someone to Take Your Photo in Korean"
-excerpt: "To ask someone to take your photo in Korean, say **사진 찍어 주세요** (*sajin jjigeo juseyo*), \"Please take a photo.\" Add **같이** (*gachi*) when you want to join the frame."
+excerpt: "To take a photo or a picture in Korean, say **사진 찍어 주세요** (*sajin jjigeo juseyo*), \"Please take a photo.\" Add **같이** (*gachi*) to join the frame."
 slug: "ask-take-photo-korean"
 date: "2026-08-13T12:05:00.000Z"
 updated: "2026-08-13T12:05:00.000Z"
@@ -24,6 +24,10 @@ To ask someone to take your photo in Korean, hand over your phone and say **사�
 > - **여기서 찍어 주세요** (*yeogiseo jjigeo juseyo*) — "Please take it here."
 
 ![People exchanging a polite Korean greeting outside a cafe](/assets/blog/scenes/greeting.jpg)
+
+## How do you say "take a photo" or "take a picture" in Korean?
+
+Korean uses one word for both: **사진** (*sajin*) means photo and picture alike, and the verb for taking one is **찍다** (*jjikda*), not "do" or "take." So **사진 찍어 주세요** (*sajin jjigeo juseyo*) is "Please take a photo" and "Please take a picture." If you want to take one yourself, say **사진 찍을게요** (*sajin jjigeulgeyo*), "I'll take a photo." If they answer too fast, [ask someone to repeat](/korean-phrases-when-korean-is-too-fast).
 
 ## How do you start the request politely?
 

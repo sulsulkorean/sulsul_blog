@@ -1,6 +1,6 @@
 ---
 title: "What to Say When Ordering Coffee in Korean"
-excerpt: "To order coffee in Korean, name the drink and add '주세요' (juseyo) — like '아메리카노 한 잔 주세요' (amerikano han jan juseyo), 'One Americano, please.'"
+excerpt: "To order coffee in Korean, say 커피 주세요 (keopi juseyo) or 아메리카노 한 잔 주세요 (amerikano han jan juseyo), \"One Americano, please.\""
 slug: "ordering-coffee-in-korean"
 date: "2026-08-02T16:57:39.000Z"
 updated: "2026-08-04T00:00:00.000Z"
@@ -30,6 +30,10 @@ To order coffee in Korean, name the drink and add **주세요** (*juseyo*), "ple
 The reusable pattern is drink name + **한 잔 주세요** (*han jan juseyo*). **한 잔** (*han jan*) is the counter for one cup, so **라테 주세요** (*rate juseyo*) works too — the counter just makes the quantity explicit.
 
 If the menu name is unfamiliar, point and say **이거 주세요** (*igeo juseyo*), "This one, please." Unsure what to try? Ask **뭐가 맛있어요?** (*mwoga masisseoyo?*), "What is good here?" A barista would not normally ask what drink you want again after you've already named one — listen for the next question instead.
+
+## How do you say "coffee, please" in Korean?
+
+The shortest version is **커피 주세요** (*keopi juseyo*), "Coffee, please" or "Please give me coffee." Add a count for "one coffee, please": **커피 한 잔 주세요** (*keopi han jan juseyo*). Most cafes expect a specific drink, so **아메리카노 주세요** (*amerikano juseyo*) is the safer order. The ending is the same [주세요 pattern](/how-to-say-please-give-me-in-korean) you use for anything you want handed to you.
 
 ## How does the exchange usually go at the counter?
 

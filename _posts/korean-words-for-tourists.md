@@ -90,7 +90,7 @@ At the convenience store, you hold up a bottle: **이거 얼마예요?** The cle
 
 At a small restaurant, you sit down and say **메뉴 주세요**, then point at a photo: **이거 하나 주세요** — "One of this, please." Halfway through: **물 좀 주세요.** Before you leave: **화장실 어디예요?**
 
-That is a full afternoon in Korean, and you never built a sentence longer than four words.
+That is a full afternoon in Korean, and you never built a sentence longer than four words. At a palace gate, the same trick works for [asking a stranger to take your photo](/ask-take-photo-korean).
 
 ## Small slips that trip up tourists
 

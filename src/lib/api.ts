@@ -11,6 +11,21 @@ export function getPostSlugs() {
   return fs.readdirSync(postsDirectory).filter((file) => file.endsWith(".md"));
 }
 
+let slugSet: Set<string> | null = null;
+
+/**
+ * 2026-11-09: 본문 안 글→글 링크가 `](/slug)` 로 적혀 있는데 글의 실제 경로는 `/posts/slug` 다.
+ * 223편에 걸친 570개 링크가 전부 404였고(라이브 확인), 그래서 구글이 글 사이를 못 걸어다녔다.
+ * 발행기가 계속 이 식으로 쓰므로 고치는 자리는 «쓸 때»가 아니라 «읽을 때»다 — 지난 글과
+ * 앞으로 나올 글을 한꺼번에 덮는다. 글이 아닌 /assets/... 는 슬러그 집합에 없어 손대지 않는다.
+ */
+function fixPostLinks(content: string): string {
+  slugSet ??= new Set(getPostSlugs().map((f) => f.replace(/\.md$/, "")));
+  return content.replace(/\]\(\/([A-Za-z0-9-]+)(?=[)?#])/g, (whole, s) =>
+    slugSet!.has(s) ? `](/posts/${s}` : whole,
+  );
+}
+
 export function getPostBySlug(slug: string): Post | null {
   const realSlug = slug.replace(/\.md$/, "");
   const fullPath = join(postsDirectory, `${realSlug}.md`);
@@ -25,7 +40,7 @@ export function getPostBySlug(slug: string): Post | null {
   return {
     ...data,
     slug: realSlug,
-    content,
+    content: fixPostLinks(content),
     coverImage,
     author: data.author?.name ? data.author : DEFAULT_AUTHOR,
     ogImage: { url: data.ogImage?.url || coverImage },

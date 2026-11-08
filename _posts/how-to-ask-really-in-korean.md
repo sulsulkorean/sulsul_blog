@@ -1,6 +1,6 @@
 ---
 title: "How to Ask Really in Korean: 진짜요? and 정말요?"
-excerpt: "\"Really?\" in Korean is 진짜요? or 정말요? — and the version you need depends less on the word than on whether your voice goes up or down at the end."
+excerpt: "\"Really?\" in Korean is 진짜요? (jinjjayo) or 정말요? (jeongmaryo). Your voice rising or falling at the end decides whether it means surprise or sympathy."
 slug: "how-to-ask-really-in-korean"
 date: "2026-10-04T03:05:00.000Z"
 updated: "2026-10-04T03:05:00.000Z"
@@ -55,6 +55,14 @@ A friend says *나 다음 달에 한국 가요* ("I'm going to Korea next month"
 English does this too, but it leans on extra words — "oh really," "wait, really?", "really…" Korean leaves the words alone and moves the pitch. If you only drill one thing out loud from this page, drill those two.
 
 ![Two people in casual conversation in Korea, one of them mid-reaction](/assets/blog/scenes/small-talk.jpg)
+
+## How to say "oh really" in Korean
+
+**Oh, really?** is **아, 진짜요?** (*a, jinjjayo?*) with your voice rising, or **아, 그래요?** (*a, geuraeyo?*) when the news is more interesting than shocking. It is what you say when someone has just told you something you did not know, and the 아 is the "oh." Keep the pitch lifting on the last syllable.
+
+## How to say "yes, really" in Korean
+
+To answer someone who asked you "really?", say **네, 진짜예요** (*ne, jinjjayeyo*), "yes, it's true," or the shorter **네, 진짜요** (*ne, jinjjayo*). Among friends it is just **응, 진짜** (*eung, jinjja*) (see [how to be polite in Korean](/how-to-be-polite-in-korean) for when to drop the 요). Here the pitch stays flat or falls, because you are confirming, not asking. For "yes, that's right," use **맞아요** (*majayo*).
 
 ## 아, 진짜요? — the upgrade that costs one syllable
 

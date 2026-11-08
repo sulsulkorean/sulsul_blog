@@ -1,6 +1,6 @@
 ---
 title: "Korean Phrases at a Gas Station in Korea"
-excerpt: "Korean phrases at a gas station in Korea start with Pattern 01 — 휘발유 주세요 (hwibaryu juseyo), 'Regular gas, please' — then Pattern 03: 셀프 주유기 있어요? (selpeu juyugi isseoyo?), 'Is there a self-service pump?'"
+excerpt: "Diesel in Korean is 경유 (gyeongyu), not 디젤. Gasoline is 휘발유 (hwibaryu). Here is what to say at the pump, plus how to find a self-service one."
 slug: "korean-phrases-gas-station-korea"
 date: "2026-08-25T15:00:00.000Z"
 updated: "2026-08-25T15:00:00.000Z"
@@ -42,6 +42,15 @@ You: **만 원만 넣어 주세요.** — *man wonman neoeo juseyo.* — "Please
 | Set an amount | 만 원만 넣어 주세요 (*man wonman neoeo juseyo*) |
 | Card payment | 카드 돼요? (*kadeu dwaeyo?*) |
 
+## How do you say diesel in Korean?
+
+Diesel in Korean is **경유** (*gyeongyu*), not 디젤 (*dijel*). Pumps, rental contracts, and attendants all use **경유**, so say **경유 주세요** (*gyeongyu juseyo*). Gasoline is a different word, **휘발유** (*hwibaryu*), and mixing them up in a rental car is expensive.
+
+| English | Korean | Say this |
+|---|---|---|
+| Diesel | **경유** (*gyeongyu*) | 경유 주세요 |
+| Gasoline / regular | **휘발유** (*hwibaryu*) | 휘발유 주세요 |
+
 ![SULSUL mascot Sulsuli waving hello, with the tagline Don't freeze in Seoul, speak Korean for real](/assets/blog/covers/app-screen-1.png)
 
 ## What do you say at a self-service pump?
@@ -58,7 +67,7 @@ If the screen freezes before fuel flows, walk to the counter with **도와주세
 
 Travelers often choose **경유** (*gyeongyu*, diesel) by mistake because the green nozzle looks similar to gasoline in other countries — double-check the rental contract and say **휘발유 맞아요?** (*hwibaryu majayo?*), "This is regular gas, right?" before the attendant starts pumping.
 
-A second mistake is assuming every pump takes a foreign card at the machine. If payment fails twice, go inside and ask **여기서 결제해도 돼요?** (*yeogiseo gyeoljehaedo dwaeyo?*), "Can I pay here?" so staff can run the card at the counter.
+A second mistake is assuming every pump takes a foreign card at the machine. If payment fails twice, go inside and ask **여기서 결제해도 돼요?** (*yeogiseo gyeoljehaedo dwaeyo?*), "Can I pay here?" so staff can run the card at the counter. Once the tank is full, [parking in Korea](/korean-phrases-parking-korea) is the next phrase set you will need at the hotel or mall.
 
 ## Say it out loud, not just in your head
 

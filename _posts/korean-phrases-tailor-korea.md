@@ -56,7 +56,7 @@ For shoe repairs at the same kind of shop, [Korean phrases at a shoe repair shop
 
 ## What usually goes wrong at a Korean tailor?
 
-Travelers often mime "short" with their hands but skip the pickup date — **언제 되나요?** at drop-off prevents showing up the night before a flight when the shop needs two days. A second mistake is leaving without a receipt slip; ask **영수증 주세요** (*yeongsujeung juseyo*), "Receipt, please," so staff can find your tagged **바지** (*baji*, pants) on a crowded rack.
+Travelers often mime "short" with their hands but skip the pickup date — **언제 되나요?** at drop-off prevents showing up the night before a flight when the shop needs two days. A second mistake is leaving without a receipt slip; ask **영수증 주세요** (*yeongsujeung juseyo*), "Receipt, please," so staff can find your tagged **바지** (*baji*, pants) on a crowded rack. The same slip logic applies if the garment just needs cleaning, as in [Korean phrases at a dry cleaner](/korean-phrases-dry-cleaner-korea).
 
 You: **얼마예요?** — *eolmayeyo?* — "How much is it?"  
 Them: **8,000원이에요.** — *palcheon won-ieyo.* — "It is 8,000 won."  

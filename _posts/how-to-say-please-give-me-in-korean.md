@@ -1,6 +1,6 @@
 ---
 title: "How to Say Please Give Me in Korean: 주세요"
-excerpt: "주세요 (juseyo) turns any noun into a polite request — 커피 주세요, 빵 주세요, 이거 주세요. Here is the one rule, the softener 좀, how to add a number, and when 주세요 needs a verb in front of it instead."
+excerpt: "Give me in Korean is 주세요 (juseyo): put it after the noun, as in 물 주세요. Add 좀 to sound softer, a number to count, or a verb for actions."
 slug: "how-to-say-please-give-me-in-korean"
 date: "2026-09-21T03:05:00.000Z"
 updated: "2026-09-21T03:05:00.000Z"
@@ -25,6 +25,10 @@ sources: []
 > - **아메리카노 한 잔 주세요** — one Americano, please
 
 ![A café counter in Seoul where a customer is ordering](/assets/blog/scenes/cafe.jpg)
+
+## How to say give me in Korean (and please give me)
+
+"Give me" is **줘** (*jwo*) among close friends, but the form you want as a visitor is **주세요** (*juseyo*), which already means "please give me." You do not add a separate word for "please." **이거 주세요** (*igeo juseyo*) covers "please give me this," and **물 주세요** (*mul juseyo*) covers "please give me water." To soften it, "give me please" becomes **좀 주세요** (*jom juseyo*).
 
 ## The one rule: noun + 주세요
 
@@ -70,7 +74,7 @@ Korean counts things with a counter word, and it sits right before 주세요. Us
 | 인분 (*inbun*) | portions of food | 삼겹살 이 인분 주세요 — two servings of pork belly |
 | 명 (*myeong*) | people | 두 명이요 — for two (at the door) |
 
-인분 is the odd one out: it takes Sino-Korean numbers (일, 이, 삼), so it is **이 인분**, not 두 인분. Meat at a Korean BBQ place is almost always ordered this way, and the full counting system for both number sets is laid out in [Korean numbers for paying and counting in Korea](/korean-numbers-paying-counting-korea).
+인분 is the odd one out: it takes Sino-Korean numbers (일, 이, 삼), so it is **이 인분**, not 두 인분. Meat at a Korean BBQ place is almost always ordered this way, and the full counting system for both number sets is laid out in [Korean numbers for paying and counting in Korea](/korean-numbers-paying-counting-korea). If you are ordering a whole meal, [ordering at a restaurant in Korea](/korean-phrases-ordering-restaurant-korea) puts these counters into full sentences.
 
 One more you will use every single day: **더** (*deo*), "more."
 

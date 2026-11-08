@@ -1,6 +1,6 @@
 ---
-title: "Korean Slang Bad Words: What K-Drama Characters Really Say When They Swear"
-excerpt: "미친, 젠장, 꺼져, 닥쳐, 이 자식, and the 씨— that gets cut off mid-word — the Korean bad words you hear in K-dramas, how strong each one really is, and which ones a learner can actually say out loud."
+title: "Korean Bad Words in K-Dramas: What They Mean and When Not"
+excerpt: "How to say 'you jerk' in Korean, plus the other rough words from K-dramas: 미친, 꺼져, 닥쳐, 새끼. What each means, how strong it is, and what to say instead."
 slug: "korean-slang-bad-words"
 date: "2026-10-13T03:05:00.000Z"
 updated: "2026-10-13T03:05:00.000Z"
@@ -75,6 +75,10 @@ These are aimed at a person, and they are the lines that come right before someo
 **새끼** (*saekki*) means "baby animal" and is much harsher about a person. You will hear it in crime dramas and in the angriest family scenes. Learners should recognize it and leave it there.
 
 **개-** in front of a word adds "dog" as an intensifier. In fan slang, **개좋아** (*gaejoa*, "so good") is just strong enthusiasm, but stuck onto an insult it makes the insult much worse.
+
+## How do you say "you jerk" in Korean?
+
+The usual drama line is **이 자식** (*i jasik*) or **너 이 자식** (*neo i jasik*), "you jerk." It is one of the milder rough words in Korean, and between close friends it can even sound fond. The harsher end is **새끼** (*saekki*), and **미친 새끼** (*michin saekki*, "crazy bastard") is one you should recognize and never say. If you just want to tell someone off without insulting them, **너 너무하다** (*neo neomuhada*, "that's too much") works, and for the texting versions see [Korean slang text abbreviations](/korean-slang-text-shortened-words).
 
 ## A drama scene, word by word
 

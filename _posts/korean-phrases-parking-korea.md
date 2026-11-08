@@ -58,7 +58,7 @@ For finding the building entrance after you park, **입구 어디예요?** (*ipg
 
 Travelers park in a white-lined spot outside a shop and return to a note on the windshield — **여기 주차해도 돼요?** before you turn off the engine prevents that conversation. A second mistake is losing the entry ticket; without it, the exit gate will not open and you will need **정산해 주세요** at the booth with your plate number.
 
-If you are dropping someone at a hotel first, [checking into a hotel in Korean](/check-into-hotel-korean) covers the lobby lines — then ask where the **주차장** (*juchajang*) is at the same desk before you head back to the car.
+If you are dropping someone at a hotel first, [checking into a hotel in Korean](/check-into-hotel-korean) covers the lobby lines — then ask where the **주차장** (*juchajang*) is at the same desk before you head back to the car. Before you return a rental, [fill the tank at a gas station](/korean-phrases-gas-station-korea) and check whether the car takes **휘발유** or **경유**.
 
 ![SULSUL mascot Sulsuli next to a breakdown of the app's 100 patterns and practice features](/assets/blog/covers/app-screen-4.png)
 

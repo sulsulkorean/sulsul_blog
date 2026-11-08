@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: `${SITE_NAME} Blog — ${SITE_TAGLINE}`,
-    template: `%s | ${SITE_NAME}`,
+    // 2026-11-09: 접미사 «| SULSUL Korean»(16자)를 뗐다. 제목 길이 중간값이 50자여서
+    // 붙이면 66자 — 구글이 60자에서 자르는 바람에 252편 중 122편의 핵심 낱말이 잘려 나갔다.
+    // 목록·홈은 위 default 로 브랜드를 지킨다. 근거: reports/blog/ctr_cause_2026-11-05.md
+    template: "%s",
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
