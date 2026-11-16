@@ -67,18 +67,66 @@ function topicWords(post: Post): Set<string> {
  * 85 of 140 unindexed). Same category counts most; shared topic words break ties;
  * newest wins among equals so fresh posts get inbound links quickly.
  */
-export function getRelatedPosts(post: Post, all: Post[], limit = 3): Post[] {
+function scoreAgainst(post: Post, p: Post): number {
   const mine = topicWords(post);
+  let score = p.category === post.category ? 2 : 0;
+  topicWords(p).forEach((w) => mine.has(w) && score++);
+  return score;
+}
+
+function naturalRelated(post: Post, all: Post[], limit: number): Post[] {
   return all
     .filter((p) => p.slug !== post.slug)
-    .map((p) => {
-      let score = p.category === post.category ? 2 : 0;
-      topicWords(p).forEach((w) => mine.has(w) && score++);
-      return { p, score };
-    })
+    .map((p) => ({ p, score: scoreAgainst(post, p) }))
     .sort((a, b) => b.score - a.score || (a.p.date > b.p.date ? -1 : 1))
     .slice(0, limit)
     .map(({ p }) => p);
+}
+
+/**
+ * 2026-11-16: 대표님 «네, 이어줘» (결정함 blog-inner-links).
+ * 글 아래 «Keep practicing» 세 칸이 유일한 글→글 길인데, 점수대로만 뽑으니 인기 글이 거듭 뽑히고
+ * 269편 중 51편은 어느 글에서도 한 번도 안 뽑혔다 — 구글이 그 51편에 걸어 들어갈 길이 없다.
+ * 그래서 «한 번도 안 뽑힌 글»을 주제가 가장 가까운 글 하나에 붙여 길을 하나씩 만든다.
+ * 원래 뽑히던 세 편은 그대로 두고 옆에 더한다(그 글의 칸이 네 개가 된다).
+ * 전체 목록이 있어야 알 수 있으므로 빌드 때 한 번만 계산한다. 글이 늘어도 자동으로 다시 계산된다.
+ */
+let adoptions: Map<string, Post[]> | null = null;
+let adoptionsFor = 0;
+
+function buildAdoptions(all: Post[]): Map<string, Post[]> {
+  const indeg = new Map(all.map((p) => [p.slug, 0]));
+  for (const p of all)
+    for (const q of naturalRelated(p, all, 3)) indeg.set(q.slug, (indeg.get(q.slug) ?? 0) + 1);
+
+  const map = new Map<string, Post[]>();
+  const orphans = all.filter((p) => (indeg.get(p.slug) ?? 0) === 0);
+  for (const orphan of orphans) {
+    // 길이 이미 있는 글만 집주인이 될 수 있다 — 길 없는 글끼리 이어 봐야 구글이 못 들어온다.
+    const hosts = all
+      .filter((p) => p.slug !== orphan.slug && (indeg.get(p.slug) ?? 0) > 0)
+      .sort(
+        (a, b) =>
+          scoreAgainst(orphan, b) - scoreAgainst(orphan, a) || (a.slug < b.slug ? -1 : 1),
+      );
+    // 한 글에 몰아주지 않는다 — 아직 아무도 안 맡은 글을 먼저 고른다.
+    const host = hosts.find((h) => !map.has(h.slug)) ?? hosts[0];
+    if (!host) continue;
+    map.set(host.slug, [...(map.get(host.slug) ?? []), orphan]);
+  }
+  return map;
+}
+
+export function getRelatedPosts(post: Post, all: Post[], limit = 3): Post[] {
+  if (!adoptions || adoptionsFor !== all.length) {
+    adoptions = buildAdoptions(all);
+    adoptionsFor = all.length;
+  }
+  const natural = naturalRelated(post, all, limit);
+  const extra = (adoptions.get(post.slug) ?? []).filter(
+    (p) => !natural.some((n) => n.slug === p.slug),
+  );
+  return [...natural, ...extra];
 }
 
 export function wordCount(content: string) {
