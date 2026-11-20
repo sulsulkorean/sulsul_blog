@@ -19,6 +19,7 @@ import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { RelatedPosts } from "@/app/_components/related-posts";
+import { AppCtaEnd, AppCtaTop } from "@/app/_components/app-cta";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -29,8 +30,16 @@ export default async function Post(props: Params) {
   }
 
   // Every post's closing link says utm_campaign=seo; tag it with the slug so GA4 can tell posts apart.
+  // 2026-11-20: 278편 전부가 같은 굵은 글씨 한 줄 «Start speaking with SULSUL here!!»로 끝난다.
+  // 이제 그 자리에 AppCtaEnd 칸이 들어가므로, 같은 말을 두 번 하지 않도록 그 한 줄만 걷어낸다
+  // (원고 278개는 그대로 두고 읽을 때만 — 문구를 바꿀 곳이 템플릿 한 곳이어야 한다).
   const content = insertMidCta(
-    (await markdownToHtml(post.content || "")).replace(/utm_campaign=seo\b/g, `utm_campaign=${post.slug}`),
+    (await markdownToHtml(post.content || ""))
+      .replace(/utm_campaign=seo\b/g, `utm_campaign=${post.slug}`)
+      .replace(
+        /<p><strong><a href="https:\/\/sulsul\.app\/[^"]*"[^>]*>Start speaking with SULSUL here!!<\/a><\/strong><\/p>\s*/,
+        "",
+      ),
     post.slug,
   );
   const related = getRelatedPosts(post, getAllPosts());
@@ -68,7 +77,9 @@ export default async function Post(props: Params) {
               })}
             </div>
           )}
+          <AppCtaTop slug={post.slug} />
           <PostBody content={content} />
+          <AppCtaEnd slug={post.slug} />
           <RelatedPosts posts={related} />
         </article>
       </Container>
