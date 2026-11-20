@@ -1,6 +1,6 @@
 ---
-title: "How to Say Help in Korean: 도와주세요, 살려 주세요, and the Words for a Real Emergency"
-excerpt: "To say help in Korean, say 도와주세요 (dowajuseyo), 'please help me.' In a true emergency Koreans shout 살려 주세요 (sallyeo juseyo), 'save me.' Here is which one to use, how to ask someone to call 119 or 112, and how to offer help back."
+title: "살려주세요 / 도와주세요: How to Say 'Help' in Korean"
+excerpt: "도와주세요 (dowajuseyo) is 'please help me'. In a real emergency Koreans shout 살려 주세요 (sallyeo juseyo), 'save me'. Plus how to ask someone to call 119 or 112."
 slug: "how-to-say-help-in-korean"
 date: "2026-10-16T03:05:00.000Z"
 updated: "2026-10-16T03:05:00.000Z"

@@ -1,6 +1,6 @@
 ---
-title: "Korean Weather Phrases for Small Talk in Korea"
-excerpt: "Korean weather phrases for small talk start with '오늘 날씨가 어때요?' to ask how the weather is and '날씨가 좋아요' to say it is nice — the fastest icebreaker Koreans use every season."
+title: "Korean Weather Small Talk: 날씨가 좋아요, 오늘 날씨 어때요?"
+excerpt: "Ask 오늘 날씨가 어때요? (oneul nalssiga eottaeyo) for how the weather is, and say 날씨가 좋아요 when it's nice — the fastest icebreaker Koreans use every season."
 slug: "korean-weather-phrases-small-talk"
 date: "2026-08-07T12:40:00.000Z"
 updated: "2026-08-07T12:40:00.000Z"

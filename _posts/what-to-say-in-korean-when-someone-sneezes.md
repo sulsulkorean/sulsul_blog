@@ -1,6 +1,6 @@
 ---
-title: "What to Say in Korean When Someone Sneezes"
-excerpt: "There is no Korean \"bless you\" — the normal response to a sneeze is nothing at all. What Koreans do say is 괜찮아요? or 감기 조심하세요, and the person who sneezed says 죄송합니다."
+title: "Korean 'Bless You': What to Say When Someone Sneezes"
+excerpt: "There is no Korean 'bless you' — the normal answer to a sneeze is nothing at all. What Koreans do say is 괜찮아요? or 감기 조심하세요, and the sneezer says 죄송합니다."
 slug: "what-to-say-in-korean-when-someone-sneezes"
 date: "2026-10-03T03:05:00.000Z"
 updated: "2026-10-03T03:05:00.000Z"

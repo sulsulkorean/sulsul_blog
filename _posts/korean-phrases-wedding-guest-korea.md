@@ -1,6 +1,6 @@
 ---
-title: "Korean Phrases for Going to a Wedding in Korea"
-excerpt: "Korean phrases for going to a wedding in Korea rest on Pattern 14 — 한국 결혼식에 가 본 적이 없어요 (hanguk gyeolhonsige ga bon jeogi eopseoyo), 'I've never been to a Korean wedding' — and Pattern 91: 와, 진짜 잘됐네요! 축하해요 (wa, jinjja jaldwaenneyo! chukhahaeyo), 'Wow, that's really great! Congratulations.'"
+title: "Korean Wedding Phrases: What to Say as a Guest"
+excerpt: "Going to a Korean wedding? 축하드려요 to the couple, how much 축의금 cash to bring, and what to say at the 접수대 desk before you go in."
 slug: "korean-phrases-wedding-guest-korea"
 date: "2026-09-13T03:35:00.000Z"
 updated: "2026-09-13T03:35:00.000Z"

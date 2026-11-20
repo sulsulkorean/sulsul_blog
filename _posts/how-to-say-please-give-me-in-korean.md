@@ -1,6 +1,6 @@
 ---
-title: "How to Say Please Give Me in Korean: 주세요"
-excerpt: "Give me in Korean is 주세요 (juseyo): put it after the noun, as in 물 주세요. Add 좀 to sound softer, a number to count, or a verb for actions."
+title: "Give Me in Korean: 주세요 (and When to Add 좀)"
+excerpt: "'Give me' in Korean is 주세요 (juseyo) — put it after the noun, as in 물 주세요. Add 좀 to soften it, a number to count, or a verb to ask for an action."
 slug: "how-to-say-please-give-me-in-korean"
 date: "2026-09-21T03:05:00.000Z"
 updated: "2026-09-21T03:05:00.000Z"

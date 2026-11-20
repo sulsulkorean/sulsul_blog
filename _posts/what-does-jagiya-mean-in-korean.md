@@ -1,6 +1,6 @@
 ---
-title: "What Does Jagiya Mean in Korean?"
-excerpt: "Jagiya (자기야) means \"babe\" or \"honey\", a gender-neutral casual pet name for couples. It is not jogiya, which people mean as 저기요 (jeogiyo), \"excuse me.\""
+title: "Jagiya (자기야) Meaning: 'Babe' in Korean — Not Jogiya"
+excerpt: "Jagiya (자기야) means 'babe' or 'honey', a casual, gender-neutral pet name between couples. It is not 저기요 (jeogiyo), the 'excuse me' people mix it up with."
 slug: "what-does-jagiya-mean-in-korean"
 date: "2026-09-18T03:05:00.000Z"
 updated: "2026-09-18T03:05:00.000Z"

@@ -1,6 +1,6 @@
 ---
-title: "How to Address Older People in Korean: 어르신, 할머니, 아버님, and the Polite Endings That Go With Them"
-excerpt: "To address an older stranger in Korean, use a title instead of 'you': 어르신 (eoreusin) for the elderly, 할머니 (halmeoni) or 할아버지 (harabeoji) for grandparents' age, 아버님 (abeonim) or 어머님 (eomeonim) for parents' age, and 선생님 (seonsaengnim) for professionals. Then add -(으)세요 to your verbs. Here is who gets which title, the lines to say on the subway or at a market, and the slips that sound rude."
+title: "어르신, 할머니, 아버님: How to Address Older Koreans"
+excerpt: "Don't say 'you' to an older Korean — use a title: 어르신 (eoreusin) for the elderly, 할머니/할아버지 for grandparents' age, 아버님/어머님 for your parents' age."
 slug: "how-to-address-older-people-in-korean"
 date: "2026-11-01T03:05:00.000Z"
 updated: "2026-11-01T03:05:00.000Z"

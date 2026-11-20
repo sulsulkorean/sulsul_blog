@@ -1,6 +1,6 @@
 ---
-title: "How to Say How Are You in Korean: 잘 지냈어요?"
-excerpt: "The textbook answer is 어떻게 지내세요? (eotteoke jinaeseyo?), but Koreans rarely say it. To someone you haven't seen in a while you say 잘 지냈어요? (jal jinaesseoyo?), and to someone you see often you say 밥 먹었어요? — which is about care, not food."
+title: "잘 지냈어요? Meaning: 'How Are You' in Korean"
+excerpt: "잘 지냈어요? (jal jinaesseoyo) is what Koreans actually say for 'how are you', to someone they haven't seen in a while. The textbook 어떻게 지내세요? is rarely used."
 slug: "how-to-say-how-are-you-in-korean"
 date: "2026-10-01T03:05:00.000Z"
 updated: "2026-10-01T03:05:00.000Z"

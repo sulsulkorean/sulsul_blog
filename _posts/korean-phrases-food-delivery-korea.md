@@ -1,6 +1,6 @@
 ---
-title: "Korean Phrases for Ordering Food Delivery in Korea"
-excerpt: "To order food delivery in Korea, set your address in the app, then add a note like 문 앞에 두고 벨 눌러주세요 (mun ape du-go bel nulleojuseyo) — leave it at the door and ring the bell."
+title: "Korean for Food Delivery: What to Write in the App Note"
+excerpt: "Ordering delivery in Korea: set your address in the app, then add a note like 문 앞에 두고 벨 눌러주세요 (mun ape dugo bel nulleojuseyo) — leave it at the door and ring."
 slug: "korean-phrases-food-delivery-korea"
 date: "2026-08-08T12:01:00.000Z"
 updated: "2026-08-08T12:01:00.000Z"

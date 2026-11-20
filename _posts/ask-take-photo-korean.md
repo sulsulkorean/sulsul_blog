@@ -1,6 +1,6 @@
 ---
-title: "How to Ask Someone to Take Your Photo in Korean"
-excerpt: "To take a photo or a picture in Korean, say **사진 찍어 주세요** (*sajin jjigeo juseyo*), \"Please take a photo.\" Add **같이** (*gachi*) to join the frame."
+title: "사진 찍어 주세요: How to Say 'Take a Photo' in Korean"
+excerpt: "To ask someone to take a photo or picture in Korean, say 사진 찍어 주세요 (sajin jjigeo juseyo). Add 같이 (gachi) to ask them into the frame with you."
 slug: "ask-take-photo-korean"
 date: "2026-08-13T12:05:00.000Z"
 updated: "2026-08-13T12:05:00.000Z"

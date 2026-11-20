@@ -1,6 +1,6 @@
 ---
-title: "What to Say in Korean When You're Angry"
-excerpt: "짜증나 is irritation, 화났어요 is real anger, and 기분 나빠요 is the one that actually gets a problem fixed. Here is which register to reach for when something goes wrong in Korea — and the two words that end the conversation before it starts."
+title: "Angry in Korean: 짜증나, 화났어요, 기분 나빠요"
+excerpt: "짜증나 is irritation, 화났어요 is real anger, and 기분 나빠요 is the one that actually gets a problem fixed. Which to reach for when something goes wrong in Korea."
 slug: "what-to-say-in-korean-when-angry"
 date: "2026-10-06T03:05:00.000Z"
 updated: "2026-10-06T03:05:00.000Z"

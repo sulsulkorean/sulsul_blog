@@ -1,6 +1,6 @@
 ---
-title: "What to Say When Ordering Coffee in Korean"
-excerpt: "To order coffee in Korean, say 커피 주세요 (keopi juseyo) or 아메리카노 한 잔 주세요 (amerikano han jan juseyo), \"One Americano, please.\""
+title: "How to Order Coffee in Korean: 아메리카노 한 잔 주세요"
+excerpt: "To order coffee in Korean say 커피 주세요 (keopi juseyo), or name it: 아메리카노 한 잔 주세요, 'one Americano, please'. Plus iced or hot, and here or to go."
 slug: "ordering-coffee-in-korean"
 date: "2026-08-02T16:57:39.000Z"
 updated: "2026-08-04T00:00:00.000Z"

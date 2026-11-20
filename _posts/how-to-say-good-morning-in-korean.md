@@ -1,6 +1,6 @@
 ---
-title: "How to Say Good Morning in Korean: 좋은 아침이에요"
-excerpt: "좋은 아침이에요 (joeun achimieyo) is the literal translation and Koreans almost never say it out loud. The morning greeting is 안녕하세요 — the same one you use at midnight — and inside a home it is 잘 잤어요?, did you sleep well."
+title: "좋은 아침이에요 Meaning: the 'Good Morning' Koreans Skip"
+excerpt: "좋은 아침이에요 (joeun achimieyo) literally means 'good morning' — and Koreans almost never say it. The real morning greeting is 안녕하세요, and at home, 잘 잤어요?"
 slug: "how-to-say-good-morning-in-korean"
 date: "2026-10-02T03:05:00.000Z"
 updated: "2026-10-02T03:05:00.000Z"

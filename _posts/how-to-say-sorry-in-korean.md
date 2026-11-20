@@ -1,6 +1,6 @@
 ---
-title: "How to Say Sorry in Korean: 죄송합니다 or 미안해요"
-excerpt: "To say sorry in Korean, say 죄송합니다 (joesonghamnida) to strangers, staff, and anyone older, and 미안해요 (mianhaeyo) or 미안해 (mianhae) to people you are close to. Unlike thank you, these two are not equal — 죄송 outranks 미안, and most of the time on the street you actually want 잠시만요 or 저기요 instead."
+title: "죄송합니다 or 미안해요: How to Say Sorry in Korean"
+excerpt: "죄송합니다 (joesonghamnida) to strangers, staff and anyone older; 미안해요 or 미안해 to people you're close to. Unlike thank you, these two are not interchangeable."
 slug: "how-to-say-sorry-in-korean"
 date: "2026-09-30T03:05:00.000Z"
 updated: "2026-09-30T03:05:00.000Z"

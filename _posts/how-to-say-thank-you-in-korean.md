@@ -1,6 +1,6 @@
 ---
-title: "How to Say Thank You in Korean: 감사합니다 or 고마워요"
-excerpt: "To say thank you in Korean, say 감사합니다 (gamsahamnida) to anyone you do not know well, and 고마워요 (gomawoyo) or 고마워 (gomawo) to people you are close to. 감사합니다 and 고맙습니다 are equally polite — they just come from different roots."
+title: "감사합니다 or 고마워요: How to Say Thank You in Korean"
+excerpt: "감사합니다 (gamsahamnida) for anyone you don't know well, 고마워요 or 고마워 for people you're close to. 감사합니다 and 고맙습니다 are equally polite, just different roots."
 slug: "how-to-say-thank-you-in-korean"
 date: "2026-09-29T03:05:00.000Z"
 updated: "2026-09-29T03:05:00.000Z"

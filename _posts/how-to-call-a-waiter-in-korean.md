@@ -1,6 +1,6 @@
 ---
-title: "How to Call a Waiter in Korean: 저기요, 여기요, Table Bell"
-excerpt: "To call a waiter in Korean, say 저기요 (jeogiyo) or 여기요 (yeogiyo). Here is when each fits, what to say next, the table bell, and 사장님."
+title: "How to Call a Waiter in Korean: 저기요 or 여기요"
+excerpt: "Waiter in Korean: you never call them 'waiter' — you say 저기요 (jeogiyo) or 여기요 (yeogiyo). When each fits, what to say next, the table bell, and 사장님."
 slug: "how-to-call-a-waiter-in-korean"
 date: "2026-10-11T03:05:00.000Z"
 updated: "2026-10-11T03:05:00.000Z"

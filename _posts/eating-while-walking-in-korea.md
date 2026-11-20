@@ -1,6 +1,6 @@
 ---
-title: "Eating While Walking in Korea: Is It Rude, and How to Ask 먹어도 돼요?"
-excerpt: "Eating while walking in Korea isn't illegal, and with street food, coffee, or ice cream it's common among younger people, though some older Koreans still find it a little rude. Here's where to stop and eat, and how to ask 여기서 먹어도 돼요?"
+title: "Can You Eat While Walking in Korea? Is It Rude?"
+excerpt: "Eating while walking in Korea isn't illegal and is common with street food, coffee or ice cream, though some older Koreans find it rude. Plus how to ask 먹어도 돼요?"
 slug: "eating-while-walking-in-korea"
 date: "2026-11-05T15:00:00.000Z"
 updated: "2026-11-05T15:00:00.000Z"

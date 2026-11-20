@@ -1,6 +1,6 @@
 ---
-title: "How to Say Goodbye in Korean: 가세요 or 계세요"
-excerpt: "Korean has two goodbyes and you pick by who is walking away. 안녕히 가세요 goes to the person leaving, 안녕히 계세요 to the person staying — plus the casual, work and phone versions Koreans actually use."
+title: "안녕히 가세요 or 계세요? Goodbye in Korean, Explained"
+excerpt: "Korean has two goodbyes, picked by who walks away: 안녕히 가세요 to the person leaving, 안녕히 계세요 to the one staying — plus the casual, work and phone versions."
 slug: "how-to-say-goodbye-in-korean"
 date: "2026-09-20T03:05:00.000Z"
 updated: "2026-09-20T03:05:00.000Z"

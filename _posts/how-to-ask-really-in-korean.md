@@ -1,6 +1,6 @@
 ---
-title: "How to Ask Really in Korean: 진짜요? and 정말요?"
-excerpt: "\"Really?\" in Korean is 진짜요? (jinjjayo) or 정말요? (jeongmaryo). Your voice rising or falling at the end decides whether it means surprise or sympathy."
+title: "진짜요? / 정말요?: How to Say 'Oh Really?' in Korean"
+excerpt: "진짜요? (jinjjayo) and 정말요? (jeongmaryo) both mean 'really?' in Korean. Whether your voice rises or falls at the end decides surprise or sympathy."
 slug: "how-to-ask-really-in-korean"
 date: "2026-10-04T03:05:00.000Z"
 updated: "2026-10-04T03:05:00.000Z"

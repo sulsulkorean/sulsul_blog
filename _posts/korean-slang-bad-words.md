@@ -1,6 +1,6 @@
 ---
-title: "Korean Bad Words in K-Dramas: What They Mean and When Not"
-excerpt: "How to say 'you jerk' in Korean, plus the other rough words from K-dramas: 미친, 꺼져, 닥쳐, 새끼. What each means, how strong it is, and what to say instead."
+title: "Korean Bad Words: 미친, 꺼져, 닥쳐, 새끼 and How Rough Each Is"
+excerpt: "The rough Korean words you hear in K-dramas — 미친, 꺼져, 닥쳐, 새끼 and 'you jerk'. What each one means, how strong it is, and what to say instead."
 slug: "korean-slang-bad-words"
 date: "2026-10-13T03:05:00.000Z"
 updated: "2026-10-13T03:05:00.000Z"
