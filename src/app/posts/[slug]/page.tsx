@@ -20,6 +20,8 @@ import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { RelatedPosts } from "@/app/_components/related-posts";
 import { AppCtaEnd, AppCtaTop } from "@/app/_components/app-cta";
+import { AnswerBox, Toc } from "@/app/_components/post-lead";
+import { prepareBody } from "@/lib/layout";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -42,6 +44,9 @@ export default async function Post(props: Params) {
       ),
     post.slug,
   );
+  // 읽을 때 모양만 잡는다 — 긴 문단 쪼개기 · 맨 위 요약 떼어내기 · 목차 만들기.
+  // 원고 286편은 그대로다. 되돌리려면 이 한 줄만 빼면 된다.
+  const body = prepareBody(content);
   const related = getRelatedPosts(post, getAllPosts());
   const schemas = [
     blogPostingJsonLd(post),
@@ -67,7 +72,10 @@ export default async function Post(props: Params) {
             coverImage={post.coverImage}
             date={post.date}
             author={post.author}
-          />
+            minutes={body.minutes}
+          >
+            {body.lead && <AnswerBox lead={body.lead} />}
+          </PostHeader>
           {post.updated && post.updated !== post.date && (
             <div className="max-w-2xl mx-auto -mt-4 mb-8 text-sm text-slate-500">
               Updated {new Date(post.updated).toLocaleDateString("en-US", {
@@ -78,7 +86,10 @@ export default async function Post(props: Params) {
             </div>
           )}
           <AppCtaTop slug={post.slug} />
-          <PostBody content={content} />
+          <div className="max-w-2xl mx-auto">
+            <Toc items={body.toc} />
+          </div>
+          <PostBody content={body.html} />
           <AppCtaEnd slug={post.slug} />
           <RelatedPosts posts={related} />
         </article>
