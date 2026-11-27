@@ -52,7 +52,8 @@ export function AppCtaTop({ slug }: { slug: string }) {
 /** 글 끝 — 다 읽은 사람. 여기까지 온 독자가 가장 잘 누른다. */
 export function AppCtaEnd({ slug }: { slug: string }) {
   return (
-    <div className="max-w-2xl mx-auto mt-14">
+    // id: 떠 있는 띠(AppCtaSticky)가 «여기까지 왔으면 숨는다»를 판단하는 표식.
+    <div id="app-cta-end" className="max-w-2xl mx-auto mt-14">
       <div className="rounded-2xl border-2 border-pink-500 bg-white px-6 py-8 text-center dark:bg-slate-900">
         <h2 className="mb-2 text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
           Now say it out loud
