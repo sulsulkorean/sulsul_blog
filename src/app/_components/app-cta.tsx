@@ -1,4 +1,4 @@
-import { APP_DEMO_URL, APP_URL } from "@/lib/constants";
+import { APP_DEMO_URL, APP_URL, TUTOR_URL } from "@/lib/constants";
 
 /**
  * 2026-11-20: 대표님 «랜딩으로 안 간다고?? 당장 넣어».
@@ -78,5 +78,22 @@ export function AppCtaEnd({ slug }: { slug: string }) {
         </p>
       </div>
     </div>
+  );
+}
+
+/** 글 끝 앱 칸 아래 한 줄 — 사람 선생님과 1:1로 배우고 싶은 독자용 (Preply). */
+export function TutorLine() {
+  return (
+    <p className="max-w-2xl mx-auto mt-6 text-center text-slate-600 dark:text-slate-300">
+      Want a one-on-one lesson with me?{" "}
+      <a
+        href={TUTOR_URL}
+        target="_blank"
+        rel="noopener sponsored"
+        className="font-bold text-pink-600 underline dark:text-pink-400"
+      >
+        Click here :)
+      </a>
+    </p>
   );
 }

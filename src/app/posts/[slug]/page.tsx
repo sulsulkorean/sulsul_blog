@@ -19,7 +19,7 @@ import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { RelatedPosts } from "@/app/_components/related-posts";
-import { AppCtaEnd, AppCtaTop } from "@/app/_components/app-cta";
+import { AppCtaEnd, AppCtaTop, TutorLine } from "@/app/_components/app-cta";
 import { AppCtaSticky } from "@/app/_components/app-cta-sticky";
 import { AnswerBox, Toc } from "@/app/_components/post-lead";
 import { prepareBody } from "@/lib/layout";
@@ -92,6 +92,7 @@ export default async function Post(props: Params) {
           </div>
           <PostBody content={body.html} />
           <AppCtaEnd slug={post.slug} />
+          <TutorLine />
           <RelatedPosts posts={related} />
           {/* 글 위·중간·끝 사이의 빈 구간을 메우는 띠 (2026-11-26 결정 A) */}
           <AppCtaSticky slug={post.slug} />
